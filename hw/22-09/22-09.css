@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.my-pic {
+    clip-path: circle(100px);
+    margin-right: 50px;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.skill-text {
+    margin-right: 10px;
+}
+
+a {
+    color: inherit;
+}

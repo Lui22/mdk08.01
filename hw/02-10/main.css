@@ -1,0 +1,36 @@
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+table, th, td {
+    border: 1px #fff solid;
+    border-collapse: collapse;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+thead {
+    font-weight: 600;
+}
+
+td {
+    max-width: 91px;
+    padding: 5px 10px;
+}
+
+.name {
+    text-align: left;
+}
+
+caption {
+    font-weight: 600;
+    font-size: 20px;
+    max-width: 80%;
+    margin: 0 auto 10px;
+}
+
+table {
+    margin-bottom: 150px;
+}
